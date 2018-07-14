@@ -15,8 +15,9 @@ function setup(){
 	rows = floor(height/scl);
 	background(255, 225, 220, 50)
 	flowfield = new Array(cols * rows);
+	frameRate(30);
 
-	for(var i = 0; i < 1000; i++){
+	for(var i = 0; i < 500; i++){
 		particles[i] = new Particle();
 	}
 
@@ -44,7 +45,7 @@ function draw(){
 		}
 		yoff +=inc;
 
-		zoff +=0.0003;
+		zoff +=0.0001;
 	}
 	for (var i = 0; i < particles.length; i++){
 		particles[i].follow(flowfield);
