@@ -20,7 +20,6 @@ function setup(){
 	for(var i = 0; i < 500; i++){
 		particles[i] = new Particle();
 	}
-
 }
 
 function draw(){
@@ -40,7 +39,6 @@ function draw(){
 			// rotate(v.heading());
 			// strokeWeight(1);
 			// line(0,0,scl,0);
-
 			// pop();
 		}
 		yoff +=inc;
