@@ -4,27 +4,27 @@ $(document).ready(function(){
         $(".artist").toggle("slow");
     });
     $(".button1").hover(function(){
-    	$(this).css("color", "pink");
+    	$(this).css("color", "#FFC0CB");
     }, function(){
-    	$(this).css("color", "black");
+    	$(this).css("color", "#000000");
 	});
 	$(".button2").click(function(){
 		$(".artist, .engineer, .student").hide("slow")
         $(".hacker").toggle("slow");
     });
     $(".button2").hover(function(){
-    	$(this).css("color", "#dae8ec");
+    	$(this).css("color", "#DAE8EC");
     }, function(){
-    	$(this).css("color", "black");
+    	$(this).css("color", "#000000");
 	});
 	$(".button3").click(function(){
 		$(".artist, .engineer, .hacker").hide("slow")
         $(".student").toggle("slow");
     });
     $(".button3").hover(function(){
-    	$(this).css("color", "#e5d1d3");
+    	$(this).css("color", "#E5D1D3");
     }, function(){
-    	$(this).css("color", "black");
+    	$(this).css("color", "#000000");
 	});
 	$(".button4").click(function(){
 		$(".artist, .student, .hacker").hide("slow")
@@ -33,7 +33,8 @@ $(document).ready(function(){
     $(".button4").hover(function(){
     	$(this).css("color", "#959690");
     }, function(){
-    	$(this).css("color", "black");
+    	$(this).css("color", "#000000");
 	});
 });
+
 
