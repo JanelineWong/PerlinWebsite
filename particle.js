@@ -22,7 +22,6 @@ function Particle(){
 		var index = x + y * cols;
 		var force = vectors[index];
 		this.applyForce(force);
-
 	}
 
 	this.applyForce = function(force){
@@ -38,7 +37,6 @@ function Particle(){
 	this.updatePrev = function(){
 		this.prevPos.x = this.pos.x;
 		this.prevPos.y = this.pos.y;
-
 	}
 
 	this.edges = function(){
@@ -59,6 +57,5 @@ function Particle(){
 			this.pos.y = random(height);
 			this.updatePrev();
 		}
-
 	}
 }
