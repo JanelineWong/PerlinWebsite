@@ -9,6 +9,7 @@ var b = 100;
 
 function setup() {
     canvas = createCanvas(window.innerWidth, window.innerHeight);
+    canvas.parent('engineer');
     frameRate(40);
     maxParticles = 150;
     repelDist = max(width, height)/8;
