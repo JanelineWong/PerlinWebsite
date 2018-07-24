@@ -5,6 +5,7 @@ $(document).ready(function(){
         $(".artist").toggle("slow");
         $("#engineer, #general, #student").hide()
         $("#artist").show();
+
     });
     $(".button1").hover(function(){
     	$(this).css("color", "#FFC0CB");
@@ -43,3 +44,4 @@ $(document).ready(function(){
     	$(this).css("color", "#000000");
 	});
 });
+
