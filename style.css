@@ -45,13 +45,16 @@ button{
 #buttons {
 	text-align: center;
 }
-.row {
-  display: flex;
+
+#artistCarousel {
+    padding-left: 9vw;
+		padding-right: 9vw;
 }
 
-.column {
-  flex: 25%;
-  padding: 5px;
+.carousel-control.left, .carousel-control.right {
+	background-image: none;
+	padding-left: 13vw;
+	padding-right: 13vw;
 }
 
  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -59,4 +62,4 @@ button{
   .column {
     width: 100%;
   }
-} 
+}
