@@ -331,11 +331,9 @@ var w = function(a){
   // change squared spray to radial circle spray
   a.draw =function() { 
     a.background(255, 225, 220, 50);
-      for(var i = 0; i <= 1000; i++){
-        let angle = a.random(a.TWO_PI);
-        let r = a.random(0,60);
-        let offsetX = r * a.cos(angle);
-        let offsetY = r * a.sin(angle);
+      for(var i = 0; i <= 2000; i++){
+        let offsetX = a.random(0,90) * a.cos(a.random(a.TWO_PI));
+        let offsetY = a.random(0,200) * a.sin(a.random(a.PI));
         let sizeX = a.random(0.2, 1,5);
         let sizeY = a.random(0.2, 1,5);
         a.fill(a.random(255),a.random(255),a.random(255));
