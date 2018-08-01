@@ -46,27 +46,32 @@ button{
 	text-align: center;
 }
 
-#artistCarousel {
+#artistCarousel{
     padding-left: 9vw;
 		padding-right: 9vw;
 		padding-bottom: 9vw;
 }
 
-#hackerCarousel {
+#hackerCarousel{
     padding-left: 9vw;
 		padding-right: 9vw;
 		padding-bottom: 9vw;
 }
 
-.carousel-control.left, .carousel-control.right {
+video{
+width:100%
+}
+
+.carousel-control.left, .carousel-control.right{
 	background-image: none;
 	padding-left: 13vw;
 	padding-right: 13vw;
+	margin-bottom: 9vw;
 }
 
  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 500px) {
-  .column {
+@media screen and (max-width: 500px){
+  .column{
     width: 100%;
   }
 }
